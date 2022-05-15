@@ -1,0 +1,184 @@
+commands:
+  adventure: True
+  beg: True
+  crime: False
+  daily: True
+  dig: True
+  fish: True
+  guess: False
+  highlow: True
+  hunt: True
+  postmeme: True
+  search: False
+  trivia: True
+  vote: True
+  work: True
+
+cooldowns:
+  adventure: 302
+
+  beg:
+    default: 47
+    patron: 27
+
+  blackjack:
+    default: 12
+    patron: 7
+
+  crime:
+    default: 47
+    patron: 17
+
+  daily: 23402
+
+  dig:
+    default: 47
+    patron: 27
+
+  fish:
+    default: 47
+    patron: 27
+
+  guess: 62
+
+  highlow:
+    default: 32
+    patron: 17
+
+  hunt:
+    default: 42
+    patron: 27
+
+  postmeme:
+    default: 52
+    patron: 47
+
+  search:
+    default: 32
+    patron: 17
+
+  snakeeyes:
+    default: 12
+    patron: 7
+
+  stream: 602
+
+  trivia:
+    default: 7
+    patron: 5
+    
+  vote: 43202
+  work: 3602
+
+lottery:
+  enabled: False
+  cooldown: 3600
+
+stream:
+  enabled: True
+  ads: True
+  chat: True
+  donations: True
+
+blackjack:
+  enabled: False
+  random: False
+  amount: 1500
+  minimum: 1500
+  maximum: 3000
+
+snakeeyes:
+  enabled: False
+  random: False
+  amount: 1500
+  minimum: 1500
+  maximum: 3000
+
+custom commands:
+  enabled: False
+  
+  pls dep max:
+    enabled: True
+    cooldown: 300
+
+shifts:
+  enabled: False
+
+  1:
+    enabled: True
+    active: 7200
+    passive: 3600
+    variation: 60
+
+  2:
+    enabled: True
+    active: 3600
+    passive: 7200
+    variation: 60
+  
+auto buy:
+  enabled: True
+  shovel: True
+  fishing pole: True
+  hunting rifle: True
+  keyboard: True
+  mouse: True
+  adventure ticket: True
+
+auto trade:
+  enabled: False
+  trader token: None
+  bank note: True
+  tidepod: True
+
+auto accept trade:
+  enabled: True
+  traders: [712588698792755230]
+
+auto sell:
+  enabled: False
+  apple: True
+  common fish: True
+
+typing indicator:
+  enabled: False
+  minimum: 0
+  maximum: 0.5
+
+message delay:
+  enabled: False
+  minimum: 0
+  maximum: 0.5
+
+button delay:
+  enabled: False
+  minimum: 0
+  maximum: 0.5
+
+dropdown delay:
+  enabled: False
+  minimum: 0
+  maximum: 0.5
+
+anti heist:
+  enabled: True
+
+auto join heist:
+  enabled: True
+
+auto start:
+  enabled: False
+  channels: [0, 0]
+
+blacklisted servers:
+  enabled: False
+  servers: [0, 0]
+
+settings:
+  prefix: light
+  timeout: 5
+  patron: False
+
+logging:
+  debug: True
+  warning: True
